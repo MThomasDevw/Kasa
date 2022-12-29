@@ -1,0 +1,21 @@
+.tag {
+  display: flex;
+}
+.tag span {
+  background-color: #ff6060;
+  border-radius: 25px;
+  color: white;
+  font-family: Montserrat;
+  padding: 1em;
+  margin: 0.25rem 1rem 0.25rem 0;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .tag span {
+    border-radius: 9px;
+    padding: 9px;
+    font-size: 13px;
+    margin: 0.25rem 0.25rem 0.25rem 0;
+  }
+  
+}

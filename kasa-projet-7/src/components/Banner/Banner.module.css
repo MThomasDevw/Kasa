@@ -1,0 +1,53 @@
+.bannerBackground {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 223px;
+  margin: 40px 0px;
+  border-radius: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.218), rgba(0, 0, 0, 0.218)),
+    url(../assets/bannerImg.png);
+  background-size: cover;
+  background-color: #000000;
+}
+
+
+.textBanner {
+  padding: auto;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 68px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .textBanner {
+    font-size: 24px;
+    line-height: 42px;
+    margin-left: 2%;
+    margin-right: 21%;
+  }
+.bannerBackground {
+    width: 100%;
+    height: 150px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1000px) {
+
+.textBanner {
+  margin-left: 3%;
+}
+}

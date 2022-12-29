@@ -1,0 +1,38 @@
+.errorText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat";
+  color: #ff6060;
+}
+.errorText h1 {
+  font-size: 14em;
+  margin-bottom: 2%;
+}
+.errorText p {
+  margin-bottom: 10%;
+  font-size: 36px;
+}
+.errorText a {
+  color: #ff6060;
+}
+@media (min-width: 300px) and (max-width: 767px) {
+  .errorText {
+    margin-top: 10%;
+  }
+  .errorText h1 {
+    margin-bottom: 8%;
+    font-size: 8em;
+  }
+  .errorText p {
+    font-size: 70%;
+
+    margin-top: 12%;
+  }
+  .errorText a {
+    margin-top: 14%;
+    margin-bottom: 10%;
+    font-size: 70%;
+  }
+}
+

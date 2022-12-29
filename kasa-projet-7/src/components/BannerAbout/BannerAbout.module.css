@@ -1,0 +1,26 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bannerBackground {
+  width: 100%;
+  margin: 4% 0% 4% 0%;
+  border-radius: 25px;
+  filter: brightness(0.9);
+}
+.bannerPicture {
+  width: 100%;
+  border-radius: 25px;
+  height: 100%;
+  object-fit: cover;
+}
+@media (min-width: 300px) and (max-width: 767px) {
+  
+ 
+.bannerBackground  {
+ width: 100%;
+ height: 10em;
+ 
+}
+}

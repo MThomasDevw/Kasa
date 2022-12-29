@@ -1,0 +1,14 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  align-items: center;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .header {
+    grid-template-columns: repeat(2, 0fr);
+  }
+  .header img{
+    width: 100px;
+  }
+}

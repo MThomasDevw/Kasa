@@ -1,0 +1,101 @@
+.dropDown {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  align-content: center;
+  color: white;
+  background: #ff6060;
+  height: 47px;
+  width: 97%;
+  border-radius: 5px;
+  margin-top: 3%;
+  border: none;
+}
+img{
+  cursor: pointer;
+}
+.dropDown p {
+  margin-left: 4%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 25px;
+  margin: auto 80% auto 10%;
+}
+.dropUp {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  align-content: center;
+  color: white;
+  background: #ff6060;
+  height: 47px;
+  width: 97%;
+  border-radius: 5px;
+  margin-top: 3%;
+  border: none;
+}
+.dropUp p {
+  margin-left: 4%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 25px;
+  margin: auto 80% auto 10%;
+}
+.vector {
+  display: flex;
+  align-items: flex-end;
+  margin: auto 9% auto auto;
+}
+
+.buttonClose {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttonOpen {
+  width: 97%;
+  border-radius: 5px;
+  background: #f6f6f6;
+}
+.vector:focus {
+  transform: rotate(180deg);
+}
+.buttonOpen p {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff6060;
+  margin: 2%;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+.vector {
+  display: flex;
+  align-items: flex-end;
+ 
+}
+.buttonOpen p{
+  margin: 2% 4% 4% 4%;
+  font-size: 19px;
+}
+.dropDown{
+width: 100%;
+}
+.dropUp {
+  width: 100%;
+}
+.buttonOpen{
+  width: 100%;
+}
+.dropDown p{
+  font-size: 19px;
+}
+.dropUp p{
+  font-size: 19px;
+}
+
+}
